@@ -56,3 +56,4 @@ Vedi: Gartner quarter chart
 Vedi: Mongo, Postgre, Elasticsearch, Redis
 
 DBPaaS - Database platform as a service
+
