@@ -4,26 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "5901eae0076bb0ee",
+        "id": "47c9be60bc050cde",
         "type": "tabs",
         "children": [
           {
-            "id": "9aafc5046af8f942",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Teoria/struttura_tre_livelli.png"
-              }
-            }
-          },
-          {
-            "id": "8d2223e1392d56fb",
+            "id": "4716490213dc7c55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoria/Modello dei dati.md",
+                "file": "Teoria/Modello ER.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5085d9c92ee33ea7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Laboratorio/Esercitazione Spettacoli Estivi.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teoria/Modello dei dati.md",
+                "file": "Laboratorio/Esercitazione Spettacoli Estivi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teoria/Modello dei dati.md",
+                "file": "Laboratorio/Esercitazione Spettacoli Estivi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,16 +138,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Teoria/Modello dei dati.md"
+                "file": "Laboratorio/Esercitazione Spettacoli Estivi.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,12 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d2223e1392d56fb",
+  "active": "b3f39cf144b32836",
   "lastOpenFiles": [
-    "Teoria/relazione_esame_logica.png",
-    "Teoria/struttura_tre_livelli.png",
+    "Laboratorio/Esercitazione1.drawio",
+    "Esercitazione1.drawio",
+    "Laboratorio/Images/Esercitazione1 1.drawio",
+    "Laboratorio/Images/Esercitazione1.drawio",
+    "Laboratorio/Images/Esercitazione1.png",
+    "Laboratorio/Esercitazione Spettacoli Estivi.md",
+    "Laboratorio/Images",
+    "Teoria/Modello ER.md",
+    "Teoria/Images/reificazione.png",
+    "Teoria/Images/reificazione_associazione.png",
+    "Teoria/Images/reificazione_con_id.png",
+    "Teoria/Images/reificazione1.png",
+    "Teoria/Images/reificazioni_entità.png",
+    "Teoria/Images/relazione_esame.png",
+    "Teoria/Images/struttura_tre_livelli.png",
+    "Teoria/Images/studente_facoltà.png",
+    "Teoria/Images/studente_attributi.png",
+    "modello.md",
     "Teoria/Modello dei dati.md",
-    "Teoria/Introduzione.md",
-    "Teoria/relazione_esame.png"
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Teoria/Images",
+    "Teoria/Introduzione.md"
   ]
 }

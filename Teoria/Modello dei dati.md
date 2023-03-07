@@ -118,3 +118,18 @@ Aggrego tra loro N classi C1, ..., Cn secondo un'aggregazione A
 
 Esempio: l'orario settimanale mette in relazione corso, aula, giorno (aggregazione ternaria)
 Dove `card(CORSO, ORARIO_SETT) = (1, 5)` ("un corso si può tenere da una a 5 volte alla settimana, nello stesso giorno o in giorni diversi, nella stessa aula o in aule diverse"), `card(GIORNO, ORARIO_SETT) = (0, n)` ("posso avere corsi da da 0 a N volte alla settimana"), `card(AULA, ORARIO_SETT) = (0, 40)` ("ogni aula ospita al max 40 corsi alla settimana")
+
+# Generalizzazione
+Definisce il legame tra gli elementi di una classe *generalizzazione* e gli elementi delle classi generalizzate.
+
+## Totale o parziale
+- **t** - totale: ogni elemento della classe *generalizzazione* è in relazione con almeno 1 elemento delle classi generalizzate. La generalizzazione esaurisce gli elementi generalizzati
+- **p** - parziale: alcuni elementi delle classi generalizzate, non sono mappate a nessun elemento della classe *generalizzazione*
+
+## Sovrapposta o esclusiva
+- **e** - esclusiva: ogni elemento della clase generalizzazione è in relazione con al massimo un elemento delle classi generalizzate (Es: Persona <- uomo, donna)
+- **o** - sovrapposta (overlapping): alcuni elementi della classe generalizzazione possono essere in relazione con più di una (due o più) entità delle classi generalizzate (Es: )
+
+![[generalizzazione_insiemi.png]]
+
+## In forma matematica
