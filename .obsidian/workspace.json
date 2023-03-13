@@ -4,35 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "47c9be60bc050cde",
+        "id": "5901eae0076bb0ee",
         "type": "tabs",
         "children": [
           {
-            "id": "4716490213dc7c55",
+<<<<<<< HEAD
+            "id": "5085d9c92ee33ea7",
+=======
+            "id": "9aafc5046af8f942",
+>>>>>>> parent of a0218e3... fine esercitazione 1
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Teoria/Modello ER.md",
-                "mode": "source",
-                "source": false
+                "file": "Teoria/struttura_tre_livelli.png"
               }
             }
           },
           {
-            "id": "5085d9c92ee33ea7",
+<<<<<<< HEAD
+            "id": "fb5096dd7087b158",
+=======
+            "id": "8d2223e1392d56fb",
+>>>>>>> parent of a0218e3... fine esercitazione 1
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Laboratorio/Esercitazione Spettacoli Estivi.md",
+<<<<<<< HEAD
+                "file": "Teoria/book.pdf"
+=======
+                "file": "Teoria/Modello dei dati.md",
                 "mode": "source",
                 "source": false
+>>>>>>> parent of a0218e3... fine esercitazione 1
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +107,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laboratorio/Esercitazione Spettacoli Estivi.md",
+<<<<<<< HEAD
+                "file": "Teoria/Modello ER.md",
+=======
+                "file": "Teoria/Modello dei dati.md",
+>>>>>>> parent of a0218e3... fine esercitazione 1
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laboratorio/Esercitazione Spettacoli Estivi.md",
+<<<<<<< HEAD
+                "file": "Teoria/Modello ER.md",
+=======
+                "file": "Teoria/Modello dei dati.md",
+>>>>>>> parent of a0218e3... fine esercitazione 1
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +155,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laboratorio/Esercitazione Spettacoli Estivi.md"
+<<<<<<< HEAD
+                "file": "Teoria/Modello ER.md"
+=======
+                "file": "Teoria/Modello dei dati.md"
+>>>>>>> parent of a0218e3... fine esercitazione 1
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,30 +180,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3f39cf144b32836",
+<<<<<<< HEAD
+  "active": "5085d9c92ee33ea7",
   "lastOpenFiles": [
+    "Teoria/Progetto concettuale di DB.md",
+    "Screenshot_20230313_105111.png",
+    "Teoria/Modello ER.md",
+    "Teoria/book.pdf",
+    "Laboratorio/Images/Untitled Diagram.drawio(21).png",
+    "Teoria/Introduzione.md",
+    "Laboratorio/Images/Untitled Diagram.drawio(20).png",
+    "Untitled Diagram.drawio(19).png.md",
+    "Untitled Diagram.drawio(19).png",
+    "Laboratorio/Images/Untitled Diagram.drawio(18).png",
+    "Untitled Diagram.drawio(16).png",
+    "Laboratorio/Images/Untitled Diagram.drawio(17).png",
+    "Laboratorio/Images/Untitled Diagram.drawio(15).png",
+    "Laboratorio/Images/Untitled Diagram.drawio(14).png",
+    "Laboratorio/Images/Untitled Diagram.drawio(13).png",
+    "Laboratorio/Esercitazione Spettacoli Estivi.md",
     "Laboratorio/Esercitazione1.drawio",
     "Esercitazione1.drawio",
     "Laboratorio/Images/Esercitazione1 1.drawio",
     "Laboratorio/Images/Esercitazione1.drawio",
-    "Laboratorio/Images/Esercitazione1.png",
-    "Laboratorio/Esercitazione Spettacoli Estivi.md",
     "Laboratorio/Images",
-    "Teoria/Modello ER.md",
-    "Teoria/Images/reificazione.png",
-    "Teoria/Images/reificazione_associazione.png",
-    "Teoria/Images/reificazione_con_id.png",
-    "Teoria/Images/reificazione1.png",
-    "Teoria/Images/reificazioni_entità.png",
-    "Teoria/Images/relazione_esame.png",
-    "Teoria/Images/struttura_tre_livelli.png",
-    "Teoria/Images/studente_facoltà.png",
-    "Teoria/Images/studente_attributi.png",
     "modello.md",
     "Teoria/Modello dei dati.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Teoria/Images",
-    "Teoria/Introduzione.md"
+    "Teoria/Images"
+=======
+  "active": "8d2223e1392d56fb",
+  "lastOpenFiles": [
+    "Teoria/relazione_esame_logica.png",
+    "Teoria/struttura_tre_livelli.png",
+    "Teoria/Modello dei dati.md",
+    "Teoria/Introduzione.md",
+    "Teoria/relazione_esame.png"
+>>>>>>> parent of a0218e3... fine esercitazione 1
   ]
 }

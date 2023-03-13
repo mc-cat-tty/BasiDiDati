@@ -200,3 +200,65 @@ Con la reificazione (primo schema), una persona può viaggiare verso un certo lu
 
 ![[reificazione_con_id.png]]
 
+## Identificatore dell'entità reificata
+Nota: nel modello ER le associazioni non posso avere id sulle associazioni
+
+TODO
+
+# Esempi modellazione con vincoli di integrità
+## Esempio 1
+In questo primo esempio, si vogliono rappresentare gli esami che gli studenti sostengono per i vari corsi, riportandone la data e il voto. Uno studente può sostenere fino ad un massimo di 29 esami. Nessuna limitazione per il numero di esami rcgistrabili per un corso. Verranno imposti di volta in volta i seguenti vincoli di integrità differenti e si discuterà quindi come essi siano riportati in E/R.
+1. Per un dato studente e un dato corso può essere registrato un unico esame, con il relativo voto e la relativa data.
+2. Per un dato studente e un dato corso possono essere registrati più esami, ciascuno con il relativo voto e la relativa data.
+3. Per un dato studente e un dato corso possono essere registrati più esami, ma in date differenti. Il vincolo è equivalente al seguente: per un dato studente, un dato corso e una certa data, può essere registrato un unico esame, con il relativo voto.
+4. Uno studente non può registrare due o più esami nella stessa data, cioè per una certa data e per un certo studente si può registrare un unico esame (relativo ad un preciso corso).
+5. Modellare il vincolo espresso dal punto 4 e quello dal punto 1.
+
+### Punto 2
+
+![[Untitled Diagram.drawio(13).png]]
+Con questa soluzione una data e un voto potrebbero essere *scorrelati* -> nessuno ci garantisce che in un *attributo multiplo* la memorizzazione sia in ordine
+
+![[Untitled Diagram.drawio(14).png]]
+Con un *attributo multiplo* viene mantenuta l'associazione
+
+### Punto 3
+Dobbiamo aggiungere la possibilità di registrare più esami (S1, C1) per date diverse
+
+![[Untitled Diagram.drawio(15).png]]
+
+Nota: l'entità studente partecipa all'asscozione con più di card-max(Studente, Esame) = 29, perchè gli esami possono essere sostenuti più volte
+
+La partecipazione della data può essere:
+- obbligatoria -> min-card(Data, Esame) = 0 -> una data esiste senza avere un esame associato
+- facoltativa -> min-card(Data, Esame) = 1 -> una data esiste solo se in quel giorno è stato sostenuto un esame
+
+Fin'ora uno studente può sostenere più esami (anche dello stesso corso) nella stessa data => reifichiamo, rimuoviamo data dalle entità (scegliamo che card(Data, Esame) = (1, N), ovvero la data esiste solo in corrispondenza di un esame)
+![[Untitled Diagram.drawio(17).png]]
+Ora uno studente può sostenere più esami nella stessa data, a patto che siano di corsi diversi.
+
+### Punto 4
+Vogliamo che uno studente possa sostenere un solo esame in una certa data.
+![[Untitled Diagram.drawio(18).png]]
+### Punto 5
+![[Untitled Diagram.drawio(20).png]]
+
+In questo modo uno studente può sostenere un solo esame di un dato corso
+
+## Esempio 2
+Si vuole rappresentare l'orario settimanale delle lezioni dei corsi, riportando l'indicazione dell'aula e dell'orario. L'orario è rappresentato a livello di singola om e quindi trattandosi di un orario settimanale, con il concetto di orario si intenderà un'ora di un giorno della settimana, ad esempio Lunedì, 10. L'orario settimanale verrà rappresentato con un'associazione tra i corsi, le aule e gli orari; i vincoli di integrità per le cardinalità di tale associazione sono:
+- ogni corso si tiene da tre a cinque volte la settimana;
+- in un'aula si tiene, durante la settimana, almeno un corso (ovvero si vogliono memorizzare solo le aule in cui si tiene un corso);
+- in un certo orario si tiene almeno un corso (ovvero si vogliono memorizzare solo gli orari in in cui c'è una lezione).
+
+Inoltre si considerano i seguenti due vincoli di integrità:
+- non sovrapposizione: Un'aula, in una certa ora di un giorno, deve ospitare un unico corso.
+- non sdoppiamento: Un corso, in una certa ora di un giorno, deve essere in un 'unica aula.
+
+Cioè:
+- aula e orario determinano corso
+- orario e corso denterminano aula
+
+TODO: passaggi
+
+![[Untitled Diagram.drawio(21).png]]
