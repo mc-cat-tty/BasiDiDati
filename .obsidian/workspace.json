@@ -1,44 +1,18 @@
 {
   "main": {
-    "id": "2e9e21c72b8728a3",
+    "id": "4f5b61dc134fb577",
     "type": "split",
     "children": [
       {
-        "id": "5901eae0076bb0ee",
+        "id": "d145a9c21b7b8dad",
         "type": "tabs",
         "children": [
           {
-<<<<<<< HEAD
-            "id": "5085d9c92ee33ea7",
-=======
-            "id": "9aafc5046af8f942",
->>>>>>> parent of a0218e3... fine esercitazione 1
+            "id": "a63bb3936123899b",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Teoria/struttura_tre_livelli.png"
-              }
-            }
-          },
-          {
-<<<<<<< HEAD
-            "id": "fb5096dd7087b158",
-=======
-            "id": "8d2223e1392d56fb",
->>>>>>> parent of a0218e3... fine esercitazione 1
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-<<<<<<< HEAD
-                "file": "Teoria/book.pdf"
-=======
-                "file": "Teoria/Modello dei dati.md",
-                "mode": "source",
-                "source": false
->>>>>>> parent of a0218e3... fine esercitazione 1
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -47,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4b48de1bf1eb90ee",
+    "id": "8992a69723256948",
     "type": "split",
     "children": [
       {
-        "id": "8b43d858fa857cfd",
+        "id": "3a691d74f2c08cd5",
         "type": "tabs",
         "children": [
           {
-            "id": "b3f39cf144b32836",
+            "id": "545fa7e083274ae5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,7 +39,7 @@
             }
           },
           {
-            "id": "52b308f9c30cf997",
+            "id": "fd4f8976c5bed7e6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +54,7 @@
             }
           },
           {
-            "id": "9087cc9b4a68e45d",
+            "id": "5990e38aca50f219",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -94,24 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "84912753e86a79ec",
+    "id": "d3e0385dfcf05712",
     "type": "split",
     "children": [
       {
-        "id": "572c3aa6bdb755b9",
+        "id": "6985ad780ae4802d",
         "type": "tabs",
         "children": [
           {
-            "id": "1cf4dee303509ac9",
+            "id": "d0982753cdb2614b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Teoria/Modello ER.md",
-=======
-                "file": "Teoria/Modello dei dati.md",
->>>>>>> parent of a0218e3... fine esercitazione 1
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,23 +92,18 @@
             }
           },
           {
-            "id": "3aa02ad7667c342f",
+            "id": "6f0f1adffda3124a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Teoria/Modello ER.md",
-=======
-                "file": "Teoria/Modello dei dati.md",
->>>>>>> parent of a0218e3... fine esercitazione 1
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f7634931047be3fa",
+            "id": "669082e9d3df256e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -150,17 +114,11 @@
             }
           },
           {
-            "id": "52d5f99b1b51a906",
+            "id": "63720d10aa1a5075",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "file": "Teoria/Modello ER.md"
-=======
-                "file": "Teoria/Modello dei dati.md"
->>>>>>> parent of a0218e3... fine esercitazione 1
-              }
+              "state": {}
             }
           }
         ]
@@ -180,43 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "5085d9c92ee33ea7",
-  "lastOpenFiles": [
-    "Teoria/Progetto concettuale di DB.md",
-    "Screenshot_20230313_105111.png",
-    "Teoria/Modello ER.md",
-    "Teoria/book.pdf",
-    "Laboratorio/Images/Untitled Diagram.drawio(21).png",
-    "Teoria/Introduzione.md",
-    "Laboratorio/Images/Untitled Diagram.drawio(20).png",
-    "Untitled Diagram.drawio(19).png.md",
-    "Untitled Diagram.drawio(19).png",
-    "Laboratorio/Images/Untitled Diagram.drawio(18).png",
-    "Untitled Diagram.drawio(16).png",
-    "Laboratorio/Images/Untitled Diagram.drawio(17).png",
-    "Laboratorio/Images/Untitled Diagram.drawio(15).png",
-    "Laboratorio/Images/Untitled Diagram.drawio(14).png",
-    "Laboratorio/Images/Untitled Diagram.drawio(13).png",
-    "Laboratorio/Esercitazione Spettacoli Estivi.md",
-    "Laboratorio/Esercitazione1.drawio",
-    "Esercitazione1.drawio",
-    "Laboratorio/Images/Esercitazione1 1.drawio",
-    "Laboratorio/Images/Esercitazione1.drawio",
-    "Laboratorio/Images",
-    "modello.md",
-    "Teoria/Modello dei dati.md",
-    "Untitled.canvas",
-    "Untitled 1.canvas",
-    "Teoria/Images"
-=======
-  "active": "8d2223e1392d56fb",
-  "lastOpenFiles": [
-    "Teoria/relazione_esame_logica.png",
-    "Teoria/struttura_tre_livelli.png",
-    "Teoria/Modello dei dati.md",
-    "Teoria/Introduzione.md",
-    "Teoria/relazione_esame.png"
->>>>>>> parent of a0218e3... fine esercitazione 1
-  ]
+  "active": "545fa7e083274ae5",
+  "lastOpenFiles": []
 }
