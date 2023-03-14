@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a63bb3936123899b",
+            "id": "e043102362e92289",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Teoria/Modello dei dati.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Teoria/Modello dei dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Teoria/Modello dei dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +124,25 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Teoria/Modello dei dati.md"
+              }
+            }
+          },
+          {
+            "id": "dfce870f68146052",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -135,9 +151,33 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "545fa7e083274ae5",
-  "lastOpenFiles": []
+  "active": "e043102362e92289",
+  "lastOpenFiles": [
+    "Teoria/Modello ER.md",
+    "Teoria/Modello dei dati.md",
+    "Teoria/Images/studente_facoltà.png",
+    "Teoria/Images/reificazioni_entità.png",
+    "Teoria/Images/reificazione_associazione.png",
+    "Teoria/Images/pre_reificazione_associazione.png",
+    "Teoria/Images/studente_attributi.png",
+    "Teoria/Images/viaggio_attributi.png",
+    "Teoria/Images/reificazione1.png",
+    "Teoria/Images/viaggio_entità.png",
+    "Teoria/Modello relazionale.md",
+    "anello.png.md",
+    "Teoria/Images/dipartimento.png",
+    "Teoria/Images/reificazione.png",
+    "Teoria/Introduzione.md",
+    "Teoria/book.pdf",
+    "Laboratorio/Esercitazione Spettacoli Estivi.md",
+    "Teoria/Images",
+    "Laboratorio/Esercitazione1.drawio",
+    "Laboratorio/Esercitazione1(1).drawio",
+    "Laboratorio/Esercitazione 1.md",
+    "Teoria/Progetto concettuale di DB.md"
+  ]
 }
