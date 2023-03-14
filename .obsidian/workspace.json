@@ -11,11 +11,9 @@
             "id": "e043102362e92289",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Teoria/Modello dei dati.md",
-                "mode": "source",
-                "source": false
+                "file": "Laboratorio/Images/Esercitazione 2.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teoria/Modello dei dati.md",
+                "file": "Laboratorio/Images/Esercitazione 2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teoria/Modello dei dati.md",
+                "file": "Laboratorio/Images/Esercitazione 2.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Teoria/Modello dei dati.md"
+                "file": "Laboratorio/Images/Esercitazione 2.png"
               }
             }
           },
@@ -157,7 +155,12 @@
   },
   "active": "e043102362e92289",
   "lastOpenFiles": [
+    "Laboratorio/Esercitazione agenzie di viaggio.md",
+    "Laboratorio/Images/Esercitazione 2.png",
+    "Laboratorio/Esercitazione Spettacoli Estivi.md",
     "Teoria/Modello ER.md",
+    "Teoria/Modello relazionale.md",
+    "Laboratorio/Images/Esercitazione1.png",
     "Teoria/Modello dei dati.md",
     "Teoria/Images/studente_facoltà.png",
     "Teoria/Images/reificazioni_entità.png",
@@ -167,13 +170,9 @@
     "Teoria/Images/viaggio_attributi.png",
     "Teoria/Images/reificazione1.png",
     "Teoria/Images/viaggio_entità.png",
-    "Teoria/Modello relazionale.md",
     "anello.png.md",
-    "Teoria/Images/dipartimento.png",
-    "Teoria/Images/reificazione.png",
     "Teoria/Introduzione.md",
     "Teoria/book.pdf",
-    "Laboratorio/Esercitazione Spettacoli Estivi.md",
     "Teoria/Images",
     "Laboratorio/Esercitazione1.drawio",
     "Laboratorio/Esercitazione1(1).drawio",

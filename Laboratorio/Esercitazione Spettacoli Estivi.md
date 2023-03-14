@@ -23,4 +23,5 @@ Se devi scegliere tra (0, N) e (1, N) preferisci il primo, perchè è il caso pi
 Attenzione: in ER nulla mi assicura che un artista non possa essere sostituito da sè stesso
 
 Attenzione: necessariamente == esattamente
+
 ![[Esercitazione1.png]]
