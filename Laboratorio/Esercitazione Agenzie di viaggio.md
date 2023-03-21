@@ -36,3 +36,5 @@ Nota: nelle gerarchie di generalizzazione posso ripetere gli attributi delle ent
 # Soluzione finale
 
 ![[Esercitazione 2.png]]
+
+![[Esercitazione2_rivista.png]]

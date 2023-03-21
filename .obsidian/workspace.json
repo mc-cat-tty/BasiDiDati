@@ -11,11 +11,14 @@
             "id": "f781fccdc8576c0b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Teoria/Progetto concettuale di DB.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teoria/Progetto concettuale di DB.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teoria/Progetto concettuale di DB.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Teoria/Progetto concettuale di DB.md"
+                "file": "Untitled.canvas"
               }
             }
           },
@@ -158,13 +161,16 @@
   },
   "active": "f781fccdc8576c0b",
   "lastOpenFiles": [
+    "Laboratorio/Esercitazione Vendite.md",
+    "Untitled.canvas",
+    "Laboratorio/Esercitazione Agenzie di viaggio.md",
+    "Laboratorio/Esercitazione Spettacoli Estivi.md",
+    "Laboratorio/Images/Esercitazione2_rivista.png",
+    "Laboratorio/Images/Esercitazione1.png",
+    "Laboratorio/Images/Esercitazione 2.png",
+    "Teoria/Progetto concettuale di DB.md",
     "Teoria/Images/Screenshot_20230320_102523.png",
     "Teoria/book.pdf",
-    "Laboratorio/Images/Esercitazione 2.png",
-    "Laboratorio/Images/Esercitazione1.png",
-    "Laboratorio/Esercitazione agenzie di viaggio.md",
-    "Laboratorio/Esercitazione Spettacoli Estivi.md",
-    "Teoria/Progetto concettuale di DB.md",
     "Teoria/Images/Screenshot_20230320_102222.png",
     "Teoria/Images/Screenshot_20230320_100232.png",
     "Teoria/Images/Screenshot_20230320_095007.png",
@@ -175,7 +181,6 @@
     "Teoria/Images/studente_facoltà.png",
     "Teoria/Images/reificazioni_entità.png",
     "Teoria/Images/reificazione_associazione.png",
-    "Teoria/Images/pre_reificazione_associazione.png",
     "anello.png.md",
     "Teoria/Introduzione.md",
     "Teoria/Images",
