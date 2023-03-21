@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d145a9c21b7b8dad",
+        "id": "1c5d0fda3ccc7a65",
         "type": "tabs",
         "children": [
           {
-            "id": "e043102362e92289",
+            "id": "f781fccdc8576c0b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Laboratorio/Images/Esercitazione 2.png"
+                "file": "Teoria/Progetto concettuale di DB.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d3e0385dfcf05712",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laboratorio/Images/Esercitazione 2.png",
+                "file": "Teoria/Progetto concettuale di DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laboratorio/Images/Esercitazione 2.png",
+                "file": "Teoria/Progetto concettuale di DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laboratorio/Images/Esercitazione 2.png"
+                "file": "Teoria/Progetto concettuale di DB.md"
               }
             }
           },
@@ -140,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,30 +156,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e043102362e92289",
+  "active": "f781fccdc8576c0b",
   "lastOpenFiles": [
-    "Laboratorio/Esercitazione agenzie di viaggio.md",
+    "Teoria/Images/Screenshot_20230320_102523.png",
+    "Teoria/book.pdf",
     "Laboratorio/Images/Esercitazione 2.png",
-    "Laboratorio/Esercitazione Spettacoli Estivi.md",
-    "Teoria/Modello ER.md",
-    "Teoria/Modello relazionale.md",
     "Laboratorio/Images/Esercitazione1.png",
+    "Laboratorio/Esercitazione agenzie di viaggio.md",
+    "Laboratorio/Esercitazione Spettacoli Estivi.md",
+    "Teoria/Progetto concettuale di DB.md",
+    "Teoria/Images/Screenshot_20230320_102222.png",
+    "Teoria/Images/Screenshot_20230320_100232.png",
+    "Teoria/Images/Screenshot_20230320_095007.png",
+    "Teoria/ER6.pdf",
+    "Teoria/Modello relazionale.md",
+    "Teoria/Modello ER.md",
     "Teoria/Modello dei dati.md",
     "Teoria/Images/studente_facoltà.png",
     "Teoria/Images/reificazioni_entità.png",
     "Teoria/Images/reificazione_associazione.png",
     "Teoria/Images/pre_reificazione_associazione.png",
-    "Teoria/Images/studente_attributi.png",
-    "Teoria/Images/viaggio_attributi.png",
-    "Teoria/Images/reificazione1.png",
-    "Teoria/Images/viaggio_entità.png",
     "anello.png.md",
     "Teoria/Introduzione.md",
-    "Teoria/book.pdf",
     "Teoria/Images",
     "Laboratorio/Esercitazione1.drawio",
     "Laboratorio/Esercitazione1(1).drawio",
-    "Laboratorio/Esercitazione 1.md",
-    "Teoria/Progetto concettuale di DB.md"
+    "Laboratorio/Esercitazione 1.md"
   ]
 }
