@@ -121,3 +121,55 @@ Definizione formale: $\forall t_1 \in r_1, \quad t_1[FK_i] = null \quad V \quad 
 
 Quando una relazione è costituita solamente da foreign key, ho l'equivalente di una associazione in ER.
 
+# Gerarchia di generalizzazione nel modello relazionale
+Il selettore serve a discriminare l'appartenenza di una entry ad una entità che la specializza.
+
+#TODO: lezione sul collasso della gerarchia di generalizzazione
+
+# Forme normali
+Definiscono criteri di qualità e ci forniscono delle linee guida per evitare la ridondanza, sfruttando le **dipendenze funzionali**. Cosa sono?
+>**Def. dipendenza funzionale**: dato lo schema relazioneale $R(X)$, una FD su R è un vincolo di integrità Y -> Z, dove Y è chiamato determinante e Z determinato.
+
+
+#TODO: Seconda parte
+
+## Dipendenze funzionali banali
+Una chiave (o una superchiave) determina funzionalmente tutti gli attributi
+>Se $Y \subseteq Z$, allora $Z \rightarrow Y$
+
+
+#TODO: slide successiva
+
+## Esempio: studente e corso
+#TODO: immagine e traduzione
+
+Le dipendenze funzionali hanno sul lato sinistro una chiave, se la traduzione è stata fatta correttamente.
+
+Se sbaglio, #TODO: traduzione sbagliata, vedo che il determinante non è una chiave. Questo comporta ridondanza:
+- anomalia di modifica: se un corso cambia docente non bisogna aggiornare una riga del database, ma tutte le entry che lo contengono
+- anomalia di inserimento: un corso non può esistere senza almeno uno studente che lo segua
+- anomalia di cancellazione: cancellando tutte le frequenze relative a un corso si perde docente
+
+Una modellazione del genere infrange la 2NF - 2nd normal form
+
+#Vedi: Data warehouse
+
+### 2NF
+Informalmente serve a definire schemi senza problemi dati dalla dipendenza parziale di un attributo dalla chiave.
+
+#TODO: dipendenza completa
+
+>Un **attributo primo** è un attributo che fa parte di almeno una chiave
+
+#TODO: completa definzione
+>Uno schema è in **2NF** se e solo se ...
+
+
+### 3NF
+>Uno schema è in **3NF** se e solo se per ogni dipendenza funzionale non banale (X -> A): o A è primo o X è superchiave
+
+#Nota: $3NF \Rightarrow 2NF$
+
+### BCNF - Boyce Codd normal Form
+>Uno schema è in **BCNF** se e solo se per ogni dipendenza funzionale non banale (X -> A), X è superchiave..
+

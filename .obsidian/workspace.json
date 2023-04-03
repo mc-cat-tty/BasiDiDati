@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1c5d0fda3ccc7a65",
+        "id": "48570813d3e47aad",
         "type": "tabs",
         "children": [
           {
-            "id": "f781fccdc8576c0b",
+            "id": "0d86fec83e80ab17",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Teoria/Modello relazionale.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Teoria/Modello relazionale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Teoria/Modello relazionale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "Teoria/Modello relazionale.md"
               }
             }
           },
@@ -159,10 +156,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f781fccdc8576c0b",
+  "active": "0d86fec83e80ab17",
   "lastOpenFiles": [
-    "Laboratorio/Esercitazione Vendite.md",
+    "Teoria/Modello relazionale.md",
     "Untitled.canvas",
+    "Teoria/ER6.pdf",
+    "Laboratorio/Esercitazione Vendite.md",
     "Laboratorio/Esercitazione Agenzie di viaggio.md",
     "Laboratorio/Esercitazione Spettacoli Estivi.md",
     "Laboratorio/Images/Esercitazione2_rivista.png",
@@ -174,8 +173,6 @@
     "Teoria/Images/Screenshot_20230320_102222.png",
     "Teoria/Images/Screenshot_20230320_100232.png",
     "Teoria/Images/Screenshot_20230320_095007.png",
-    "Teoria/ER6.pdf",
-    "Teoria/Modello relazionale.md",
     "Teoria/Modello ER.md",
     "Teoria/Modello dei dati.md",
     "Teoria/Images/studente_facoltà.png",
