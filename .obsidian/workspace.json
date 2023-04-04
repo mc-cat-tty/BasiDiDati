@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "48570813d3e47aad",
+        "id": "3a82ae6257634451",
         "type": "tabs",
         "children": [
           {
-            "id": "0d86fec83e80ab17",
+            "id": "d0d0333580df067f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d989899ca42cfc09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoria/Carico di lavoro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teoria/Modello relazionale.md",
+                "file": "Teoria/Carico di lavoro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teoria/Modello relazionale.md",
+                "file": "Teoria/Carico di lavoro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Teoria/Modello relazionale.md"
+                "file": "Teoria/Carico di lavoro.md"
               }
             }
           },
@@ -156,9 +169,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0d86fec83e80ab17",
+  "active": "d989899ca42cfc09",
   "lastOpenFiles": [
+    "Teoria/Progetto concettuale di DB.md",
     "Teoria/Modello relazionale.md",
+    "Teoria/Carico di lavoro.md",
     "Untitled.canvas",
     "Teoria/ER6.pdf",
     "Laboratorio/Esercitazione Vendite.md",
@@ -167,7 +182,6 @@
     "Laboratorio/Images/Esercitazione2_rivista.png",
     "Laboratorio/Images/Esercitazione1.png",
     "Laboratorio/Images/Esercitazione 2.png",
-    "Teoria/Progetto concettuale di DB.md",
     "Teoria/Images/Screenshot_20230320_102523.png",
     "Teoria/book.pdf",
     "Teoria/Images/Screenshot_20230320_102222.png",

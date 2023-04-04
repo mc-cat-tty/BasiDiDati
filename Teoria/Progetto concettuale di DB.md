@@ -21,7 +21,7 @@ Insieme ci danno la **metodologia di progetto**
 Processo iterativo durante il quale si applicano **trasformazioni di schema**
 
 Vedi: ![[ER6.pdf]]
-#attenzione: in una gerarchia di generalizzazione, le entità specializzate acquisiscono tutti gli attributi dell'entità generalizzata
+#Attenzione: in una gerarchia di generalizzazione, le entità specializzate acquisiscono tutti gli attributi dell'entità generalizzata
 
 ### Primitive top down
 >Per definizione si scede di livello di astrazione

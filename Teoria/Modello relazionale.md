@@ -173,3 +173,34 @@ Informalmente serve a definire schemi senza problemi dati dalla dipendenza parzi
 ### BCNF - Boyce Codd normal Form
 >Uno schema è in **BCNF** se e solo se per ogni dipendenza funzionale non banale (X -> A), X è superchiave..
 
+# Esercizi
+#TODO: recupera primo esercizio
+## Vaccinazioni
+#Nota: quando hai un subset di una entità riporta tutti gli attributi del padre nel figlio
+#Nota: le associazioni con cardinalità (1, 1) possono essere inglobate
+
+#TODO: svogli esercizio
+
+## Modellazione: Tokyo
+Entità:
+- sedi con codice univoco
+	- piscine: indirizzo, caratteristiche tecniche
+	- acque libere: descrizione
+- discipline: nome, genere, record olimpico e mondiale
+- gara: relativa a una disciplina, si svolge in un certo slot temporale, in una solo sede + fase (qualificazione, semifinali, ecc). Più gare non si possono svolgere nello stesso slot temporale
+- partecipante: codice univoco, singolo atleta o staffetta, può prendere parte a più gare
+- atleta: identificatore, nome, cognome, data di nascita, luogo di nascita, nazionalità, sesso, allenatore che lo segue
+- la staffetta ha un numero di atleti che varia da 4 a 8
+
+#TODO: finisci diagramma
+
+## Modellazione: Catalogo
+#TODO: tutto
+
+L'identificatore di turno è dipendente + data, in modo che non possa ripetere il turno più volte nella stessa data.
+
+Chiave alternativa: codice macchinario, data, turno (se ho i turni di lavoro divisi su mattina e pomeriggio)
+
+#Nota: fai tabellina per capire le chiavi alternative -> usate per creare vincoli
+
+
