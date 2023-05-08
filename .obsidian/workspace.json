@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3a82ae6257634451",
+        "id": "74c53ef0ccb43598",
         "type": "tabs",
         "children": [
           {
-            "id": "d0d0333580df067f",
+            "id": "b828620e8e487abd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoria/Modello relazionale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d989899ca42cfc09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoria/Carico di lavoro.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,12 +60,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "94046f9c55cc9128",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 293.5
   },
   "right": {
     "id": "d3e0385dfcf05712",
@@ -98,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teoria/Carico di lavoro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teoria/Carico di lavoro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Teoria/Carico di lavoro.md"
-              }
+              "state": {}
             }
           },
           {
@@ -151,12 +138,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,11 +155,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d989899ca42cfc09",
+  "active": "b828620e8e487abd",
   "lastOpenFiles": [
+    "SQL/Intro.md",
+    "SQL",
+    "Teoria/Carico di lavoro.md",
     "Teoria/Progetto concettuale di DB.md",
     "Teoria/Modello relazionale.md",
-    "Teoria/Carico di lavoro.md",
     "Untitled.canvas",
     "Teoria/ER6.pdf",
     "Laboratorio/Esercitazione Vendite.md",
