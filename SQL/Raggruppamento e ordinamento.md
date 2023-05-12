@@ -11,7 +11,7 @@ ORDER BY DATA [ASC|DESC], [DATA [ASC|DESC]] ...
 - `AVG`
 - `MIN`
 - `MAX`
-- `COUNT`
+- `COUNT` -> È valido `COUNT([ALL|DISTINCT] ...)`
 
 > #Nota: i NULL sono esclusi dalle funzioni di aggregazione
 
@@ -29,9 +29,9 @@ Si usano `GROUP BY` e `HAVING`
 SELECT attributes
 FROM tables
 WHERE conditions
-GROUP-BY grouping-cond
+GROUP BY grouping-cond
 HAVING selection-cond
-ORDER-BY sort-cond
+ORDER BY sort-cond
 ```
 
 `GROUP-BY` ritorna un record per ogni gruppo -> `HAVING` può agire su uno o più attributi del raggruppamento o mediante funzioni aggregate (che ritornano un unico valore per ogni gruppo)
