@@ -1,11 +1,36 @@
-> Nella select si possono inserire operazionim anche aritmetiche
+## CASCADE
+### Cancellazione
+Cancella a cascata le righe della tabella figlia che si riferiscono (mediante FK) ad una data tabella padre quando le righe della tabella padre vengono eliminate.
+
+### Modifica
+Quando si modifica la chiave primaria contenuta nella tabella padre, vengono aggiornate anche le FK che si riferiscono ad essa.
+
+### Alternative
+
+Alternative a `CASCADE`:
+- `SET NULL`: aggiornamenti o cancellazioni sulla tabella padre causano l'impostazione del valore NULL nelle FK della tabella figlio
+- `SET DEFAULT`: aggiornamenti o cancellazioni causano l'impostazione dell'attributo FK al valore di default
+- `NO ACTION`: aggiornamenti o cancellazioni su colonne riferite sono proibiti se esiste almeno una colonna che si riferisce con FK
+
+### Esempi
+```sql
+CREATE TABLE ESAME (
+	FOREIGN KEY MATR REFERENCES STUDENTE(MATR)
+	ON DELETE CASCADE
+	ON UPDATE CASCADE
+)
+```
 
 ## WHERE
 - `BETWEEN 1 AND 10`
 - `LIKE 'LOG%'` -> stringa arbitraria
 - `LIKE 'TEST_'` -> carattere arbitrario
+- `IS [NOT] NULL`
 
 ## SELECT
+> Nella select si possono inserire operazioni anche aritmetiche
+
+
 Con `DISTINCT` non abbiamo istante ripetute nel risultato della select
 
 ## Risultati dei confronti

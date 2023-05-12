@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "74c53ef0ccb43598",
+        "id": "40e9f2144b4cb651",
         "type": "tabs",
         "children": [
           {
-            "id": "b828620e8e487abd",
+            "id": "fa2b82620f1bd553",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Raggruppamento e ordinamento.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SQL/Raggruppamento e ordinamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SQL/Raggruppamento e ordinamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SQL/Raggruppamento e ordinamento.md"
+              }
             }
           },
           {
@@ -138,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -155,9 +163,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b828620e8e487abd",
+  "active": "fa2b82620f1bd553",
   "lastOpenFiles": [
-    "SQL/Intro.md",
+    "SQL/Proiezioni.md",
+    "SQL/Raggruppamento e ordinamento.md",
     "SQL",
     "Teoria/Carico di lavoro.md",
     "Teoria/Progetto concettuale di DB.md",
