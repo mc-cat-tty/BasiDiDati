@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Raggruppamento e ordinamento.md",
+                "file": "SQL/Query binarie e annidate.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 207.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "d3e0385dfcf05712",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Raggruppamento e ordinamento.md",
+                "file": "SQL/Query binarie e annidate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Raggruppamento e ordinamento.md",
+                "file": "SQL/Query binarie e annidate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Raggruppamento e ordinamento.md"
+                "file": "SQL/Query binarie e annidate.md"
               }
             }
           },
@@ -150,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,10 +165,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa2b82620f1bd553",
+  "active": "63720d10aa1a5075",
   "lastOpenFiles": [
-    "SQL/Proiezioni.md",
     "SQL/Raggruppamento e ordinamento.md",
+    "SQL/Query binarie e annidate.md",
+    "SQL/Proiezioni.md",
     "SQL",
     "Teoria/Carico di lavoro.md",
     "Teoria/Progetto concettuale di DB.md",
