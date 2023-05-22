@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "40e9f2144b4cb651",
+        "id": "0c2d1668e9b51a90",
         "type": "tabs",
         "children": [
           {
-            "id": "fa2b82620f1bd553",
+            "id": "21332587cdd8a28f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Query binarie e annidate.md",
+                "file": "SQL/Procedure e Trigger.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "328ae96252a30276",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ac7f03ae8ec29fc0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.50390243530273,
-    "collapsed": true
+    "width": 207.50390243530273
   },
   "right": {
     "id": "d3e0385dfcf05712",
@@ -94,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Query binarie e annidate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Query binarie e annidate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SQL/Query binarie e annidate.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,8 +177,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "63720d10aa1a5075",
+  "active": "ac7f03ae8ec29fc0",
   "lastOpenFiles": [
+    "SQL/Ordini.sql",
+    "SQL/Procedure e Trigger.md",
+    "SQL/Partizione e controllo degli accessi.md",
     "SQL/Raggruppamento e ordinamento.md",
     "SQL/Query binarie e annidate.md",
     "SQL/Proiezioni.md",
