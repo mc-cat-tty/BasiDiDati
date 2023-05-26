@@ -4,39 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0c2d1668e9b51a90",
+        "id": "8931eb7a38857eba",
         "type": "tabs",
         "children": [
           {
-            "id": "21332587cdd8a28f",
+            "id": "98f4b06d5c543f1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Procedure e Trigger.md",
+                "file": "SQL/Java.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "328ae96252a30276",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "ac7f03ae8ec29fc0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.50390243530273
+    "width": 207.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "d3e0385dfcf05712",
@@ -110,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SQL/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SQL/Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SQL/Java.md"
+              }
             }
           },
           {
@@ -177,10 +165,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac7f03ae8ec29fc0",
+  "active": "98f4b06d5c543f1d",
   "lastOpenFiles": [
-    "SQL/Ordini.sql",
+    "SQL/pgJava/run.sh",
+    "SQL/pgJava/Notes.txt",
+    "SQL/pgJava/MainClass.java",
+    "SQL/pgJava/Main.java",
+    "SQL/pgJava/PgDriver.jar",
+    "SQL/pgJava/postgresql-42.6.0.jar",
+    "SQL/pgJava",
+    "SQL/Java.md",
     "SQL/Procedure e Trigger.md",
+    "SQL/Ordini.sql",
     "SQL/Partizione e controllo degli accessi.md",
     "SQL/Raggruppamento e ordinamento.md",
     "SQL/Query binarie e annidate.md",
@@ -209,9 +205,6 @@
     "Teoria/Images/reificazione_associazione.png",
     "anello.png.md",
     "Teoria/Introduzione.md",
-    "Teoria/Images",
-    "Laboratorio/Esercitazione1.drawio",
-    "Laboratorio/Esercitazione1(1).drawio",
     "Laboratorio/Esercitazione 1.md"
   ]
 }
