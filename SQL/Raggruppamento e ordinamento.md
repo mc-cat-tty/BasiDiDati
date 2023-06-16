@@ -36,3 +36,22 @@ ORDER BY sort-cond
 
 `GROUP-BY` ritorna un record per ogni gruppo -> `HAVING` può agire su uno o più attributi del raggruppamento o mediante funzioni aggregate (che ritornano un unico valore per ogni gruppo)
 
+# Divisione
+Presente in algebra relazionale, ma non in SQL:
+> selezionare i dati degli ordini che contengono tutti gli i prodotti con prezzo superiore a 100
+
+Si può riformulare come:
+> selezionare i dati degli ordini che non contengono prodotti (non esiste alcun prodotto) di prezzo superiore a 100 che non sia contenuto in essi
+
+In SQL:
+```sql
+SELECT * FROM ORDINE O WHERE NOT EXISTS (
+	SELECT * FROM PRODOTTO
+	WHERE P.PREZZO > 100
+	AND NOT EXISTS (
+		SELECT * FROM DETTAGLIO D
+		WHERE P.COD-PROD = D.COD-PROD
+		AND D.COD-ORD = O.COD-ORD
+	)
+)
+```
