@@ -61,14 +61,63 @@ INSERT INTO esami VALUES ('M7','C2','2015-04-11',27);
 INSERT INTO esami VALUES ('M7','C3','2015-06-23',27);
 
 -- Interrogazioni
-select * from studenti where anno_corso = 2;  -- select [anno_corso = 2] studenti
-select * from esami where voto between 24 and 28;  -- select [voto >= 24 and voto <= 28] esami
-select * from studenti where nome like 'G%';
-select distinct citta from studenti;
-select * from studenti where citta is null;
-select s1.matricola, s2.matricola from studenti s1 join studenti s2 on s1.citta = s2.citta where s1.matricola < s2.matricola;
-select studenti.matricola, studenti.nome, corsi.codice_docente
-	from studenti natural join esami join corsi on esami.codice_corso = corsi.codice
-	where esami.voto > 24;
-select matricola from studenti natural join esami natural join (select codice_corso from esami natural join studenti where nome = 'Ugo Rossi') as R1;
-select e2.matricola from studenti natural join esami e1 join esami e2 on e1.codice_corso = e2.codice_corso where nome = 'Ugo Rossi';  -- Alternativa a sopra
+select * from studenti s where not exists (
+	(select codice from corsi where codice_docente = 'D1')
+	except
+	(select codice_corso from esami where esami.matricola = s.matricola)
+);
+
+-- Alternativa
+
+select * from studenti s where not exists (
+	select * from corsi c
+	where codice_docente = 'D1' and not exists (
+		select * from esami
+		where esami.matricola = s.matricola
+		and esami.codice_corso = c.codice
+	)
+);
+
+select * from studenti s where not exists (
+	(select codice_corso from esami where matricola = 'M7')
+	except
+	(select codice_corso from esami where matricola = s.matricola)
+) and matricola != 'M7';
+
+-- Alternativa
+
+select * from studenti s
+where s.matricola != 'M7' and not exists (
+	select * from esami e
+	where e.matricola = 'M7'
+	and not exists (
+		select * from esami
+		where esami.matricola = s.matricola and esami.codice_corso = e.codice_corso
+	)
+);
+
+select distinct matricola from esami natural join (select data, codice_corso from esami where matricola = 'M2') as R1 where matricola != 'M2';
+select distinct matricola from esami where matricola != 'M2' and (codice_corso, data) in (select codice_corso, data from esami where matricola = 'M2');
+
+select matricola, max(voto) as massimo from esami where voto != 33 group by matricola having count(distinct codice_corso) > 1 order by massimo asc;
+
+select c.codice_docente, e.codice_corso
+from esami e join corsi c on e.codice_corso = c.codice
+group by codice_docente, codice_corso
+having count(*) >= all(
+	select count(*)
+	from esami join corsi on esami.codice_corso = corsi.codice
+	where c.codice_docente = codice_docente
+	group by codice_docente, codice_corso
+);
+
+create view doc_cor_esami (codice_docente, codice_corso, numero_esami_sostenuti) as
+select codice_docente, codice_corso, count(*)
+from esami join corsi on codice_corso = codice
+group by codice_docente, codice_corso;
+
+select * from doc_cor_esami dce where numero_esami_sostenuti >= all(
+	select numero_esami_sostenuti
+	from doc_cor_esami
+	where codice_docente = dce.codice_docente
+);

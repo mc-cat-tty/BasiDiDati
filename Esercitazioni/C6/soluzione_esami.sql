@@ -61,14 +61,21 @@ INSERT INTO esami VALUES ('M7','C2','2015-04-11',27);
 INSERT INTO esami VALUES ('M7','C3','2015-06-23',27);
 
 -- Interrogazioni
-select * from studenti where anno_corso = 2;  -- select [anno_corso = 2] studenti
-select * from esami where voto between 24 and 28;  -- select [voto >= 24 and voto <= 28] esami
-select * from studenti where nome like 'G%';
-select distinct citta from studenti;
-select * from studenti where citta is null;
-select s1.matricola, s2.matricola from studenti s1 join studenti s2 on s1.citta = s2.citta where s1.matricola < s2.matricola;
-select studenti.matricola, studenti.nome, corsi.codice_docente
-	from studenti natural join esami join corsi on esami.codice_corso = corsi.codice
-	where esami.voto > 24;
-select matricola from studenti natural join esami natural join (select codice_corso from esami natural join studenti where nome = 'Ugo Rossi') as R1;
-select e2.matricola from studenti natural join esami e1 join esami e2 on e1.codice_corso = e2.codice_corso where nome = 'Ugo Rossi';  -- Alternativa a sopra
+select citta from studenti except select citta from docenti;
+select citta from studenti where citta not in (select citta from docenti);
+select * from studenti where matricola in (select matricola from esami where codice_corso = 'C1');
+select s.* from studenti s natural join esami where codice_corso = 'C1';
+select * from studenti where anno_corso <= all(select anno_corso from studenti);
+select * from studenti where matricola not in (select matricola from esami where codice_corso = 'C1');
+select * from studenti s where not exists (select matricola from esami where codice_corso = 'C1' and esami.matricola = s.matricola);
+select * from studenti where matricola != all (select matricola from esami where codice_corso = 'C1');
+-- PROJECT [MATRICOLA, CODICE_CORSO AS CODICE] ESAMI ÷ PROJECT [CORSI.CODICE] (CORSI SEMI-JOIN [CORSI.CODICE_DOCENTE = DOCENTI.CODICE] (SELECT [DOCENTI.CODICE = 'D1']  DOCENTI))
+select matricola
+from esami join corsi on codice_corso = codice
+where codice_docente = 'D1'
+group by matricola
+having count(*) = (
+	select count(*)
+	from corsi
+	where codice_docente = 'D1'
+)

@@ -61,14 +61,14 @@ INSERT INTO esami VALUES ('M7','C2','2015-04-11',27);
 INSERT INTO esami VALUES ('M7','C3','2015-06-23',27);
 
 -- Interrogazioni
-select * from studenti where anno_corso = 2;  -- select [anno_corso = 2] studenti
-select * from esami where voto between 24 and 28;  -- select [voto >= 24 and voto <= 28] esami
-select * from studenti where nome like 'G%';
-select distinct citta from studenti;
-select * from studenti where citta is null;
-select s1.matricola, s2.matricola from studenti s1 join studenti s2 on s1.citta = s2.citta where s1.matricola < s2.matricola;
-select studenti.matricola, studenti.nome, corsi.codice_docente
-	from studenti natural join esami join corsi on esami.codice_corso = corsi.codice
-	where esami.voto > 24;
-select matricola from studenti natural join esami natural join (select codice_corso from esami natural join studenti where nome = 'Ugo Rossi') as R1;
-select e2.matricola from studenti natural join esami e1 join esami e2 on e1.codice_corso = e2.codice_corso where nome = 'Ugo Rossi';  -- Alternativa a sopra
+select * from studenti where citta = 'MO' order by anno_corso asc;
+select matricola, codice_corso, voto*2 as voto_sessantesimi from esami where codice_corso = 'C1' order by voto_sessantesimi desc, matricola asc;
+select count(*) from studenti;
+select count(distinct matricola) from esami;
+select avg(voto) from esami where matricola = 'M2';
+select matricola, min(voto) as voto_minimo, max(voto) as voto_massimo from esami where codice_corso != 'C2' group by matricola;
+select matricola, nome, min(voto) as voto_minimo, max(voto) as voto_massimo from esami natural join studenti where codice_corso != 'C2' group by matricola, nome;
+select codice, nome, count(*) as esami_sostenuti from corsi join esami on codice = codice_corso group by codice, nome;
+select voto, count(*) as numero_voti from esami group by voto having voto between 23 and 28 order by voto asc;
+select codice_corso, avg(voto) from esami group by codice_corso having count(matricola) >= 2;
+select distinct matricola from esami group by matricola, voto having count(*) >= 2;
